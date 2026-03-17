@@ -1,11 +1,20 @@
 class WashingMachineExecutor{
- public static void main(String[]args){
- System.out.println("Main Started");
- System.out.println("The WashingMachine  Brand is "+ WashingMachine.getBrand());
- System.out.println("The WashingMachine Capacity  is "+ WashingMachine.getCapacity() );
- System.out.println("The WashingMachine Type is  "+ WashingMachine.getType());
- System.out.println("The WashingMachinel Spin Speed is "+ WashingMachine.getSpinSpeed());
- System.out.println("The WashingMachine Price is "+ WashingMachine.getPrice());
- System.out.println("Main Ended");
-}
+    public static void main(String[] args){
+
+        WashingMachine.power();
+
+        int mode = WashingMachine.getMode();
+        System.out.println("Current Mode: " + mode);
+
+        WashingMachine.nextMode();
+        WashingMachine.nextMode();
+
+        mode = WashingMachine.getMode();
+        System.out.println("Mode after change: " + mode);
+
+        WashingMachine.previousMode();
+
+        mode = WashingMachine.getMode();
+        System.out.println("Mode after decrease: " + mode);
+    }
 }

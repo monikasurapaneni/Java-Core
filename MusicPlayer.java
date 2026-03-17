@@ -1,16 +1,16 @@
-class Laptop{
+class MusicPlayer{
 
-    static int maxVolume = 100;
+    static int maxVolume = 15;
     static int minVolume = 0;
     static int currentVolume;
-    static boolean isOn;
+    static boolean isPlaying;
 
-    static void power(){
-        if(isOn == false){
-            isOn = true;
+    static void playPause(){
+        if(isPlaying == false){
+            isPlaying = true;
         }
         else{
-            isOn = false;
+            isPlaying = false;
         }
     }
 
@@ -19,7 +19,7 @@ class Laptop{
     }
 
     static void increaseVolume(){
-        if(isOn){
+        if(isPlaying){
             if(currentVolume < maxVolume){
                 currentVolume++;
                 System.out.println("Volume increased to: " + currentVolume);
@@ -29,12 +29,12 @@ class Laptop{
             }
         }
         else{
-            System.out.println("Laptop is off");
+            System.out.println("Music player is paused");
         }
     }
 
     static void decreaseVolume(){
-        if(isOn){
+        if(isPlaying){
             if(currentVolume > minVolume){
                 currentVolume--;
                 System.out.println("Volume decreased to: " + currentVolume);
@@ -44,7 +44,7 @@ class Laptop{
             }
         }
         else{
-            System.out.println("Laptop is off");
+            System.out.println("Music player is paused");
         }
     }
 }

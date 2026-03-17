@@ -1,15 +1,20 @@
-class CarExecutor {
+class CarExecutor{
+    public static void main(String[] args){
 
-    public static void main(String[] args) {
+        Car.startStop();
 
-        System.out.println("Main Started");
+        int speed = Car.getSpeed();
+        System.out.println("Current Speed: " + speed);
 
-        System.out.println("The Car Brand is " + Car.getBrand());
-        System.out.println("The Car Model is " + Car.getModel());
-        System.out.println("The Car Color is " + Car.getColor());
-        System.out.println("The Car Seating Capacity is " + Car.getSeatingCapacity());
-        System.out.println("The Car Price is " + Car.getPrice());
+        Car.accelerate();
+        Car.accelerate();
 
-        System.out.println("Main Ended");
+        speed = Car.getSpeed();
+        System.out.println("Speed after increase: " + speed);
+
+        Car.brake();
+
+        speed = Car.getSpeed();
+        System.out.println("Speed after decrease: " + speed);
     }
 }

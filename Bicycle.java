@@ -1,27 +1,28 @@
-class Bicycle {
+class Bicycle{
 
-    public static String getBrand() {
-        System.out.println("getBrand() invoked");
-        return "Hero";
+    static int maxGear = 6;
+    static int minGear = 1;
+    static int currentGear = 1;
+
+    static int getGear(){
+        return currentGear;
     }
 
-    public static String getType() {
-        System.out.println("getType() invoked");
-        return "Mountain";
+    static void gearUp(){
+        if(currentGear < maxGear){
+            currentGear++;
+            System.out.println("Gear increased to: " + currentGear);
+        }else{
+            System.out.println("Already at highest gear");
+        }
     }
 
-    public static int getGearCount() {
-        System.out.println("getGearCount() invoked");
-        return 21;
-    }
-
-    public static String getFrameMaterial() {
-        System.out.println("getFrameMaterial() invoked");
-        return "Aluminium";
-    }
-
-    public static double getPrice() {
-        System.out.println("getPrice() invoked");
-        return 15000.00;
+    static void gearDown(){
+        if(currentGear > minGear){
+            currentGear--;
+            System.out.println("Gear decreased to: " + currentGear);
+        }else{
+            System.out.println("Already at lowest gear");
+        }
     }
 }

@@ -1,6 +1,6 @@
-class Laptop{
+class TV{
 
-    static int maxVolume = 100;
+    static int maxVolume = 20;
     static int minVolume = 0;
     static int currentVolume;
     static boolean isOn;
@@ -25,11 +25,11 @@ class Laptop{
                 System.out.println("Volume increased to: " + currentVolume);
             }
             else{
-                System.out.println("Volume already maximum");
+                System.out.println("Volume already at maximum");
             }
         }
         else{
-            System.out.println("Laptop is off");
+            System.out.println("TV is off");
         }
     }
 
@@ -40,11 +40,11 @@ class Laptop{
                 System.out.println("Volume decreased to: " + currentVolume);
             }
             else{
-                System.out.println("Volume already minimum");
+                System.out.println("Volume already at minimum");
             }
         }
         else{
-            System.out.println("Laptop is off");
+            System.out.println("TV is off");
         }
     }
 }

@@ -1,11 +1,20 @@
 class MobileExecutor{
- public static void main(String[]args){
- System.out.println("Main Started");
- System.out.println("The Mobile Brand is "+ Mobile.getBrand());
- System.out.println("The Mobile Model  is "+ Mobile.getModel() );
- System.out.println("The Mobile Battery "+ Mobile.getBattery());
- System.out.println("The Mobile Camera is "+ Mobile.getCamera());
- System.out.println("The Mobile Price is "+ Mobile.getPrice());
- System.out.println("Main Ended");
-}
+    public static void main(String[] args){
+
+        Mobile.power();
+
+        int brightness = Mobile.getBrightness();
+        System.out.println("Current Brightness: " + brightness);
+
+        Mobile.increaseBrightness();
+        Mobile.increaseBrightness();
+
+        brightness = Mobile.getBrightness();
+        System.out.println("Brightness after increase: " + brightness);
+
+        Mobile.decreaseBrightness();
+
+        brightness = Mobile.getBrightness();
+        System.out.println("Brightness after decrease: " + brightness);
+    }
 }

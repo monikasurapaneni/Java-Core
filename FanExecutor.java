@@ -1,14 +1,18 @@
-class FanExecutor {
+class FanExecutor{
+	public static void main(String[] args){
+		
+	Fan.power();
 
-    public static void main(String[] args) {
+    int speed = Fan.getLevel();
+    System.out.println("Current Speed: " + speed);
 
-        System.out.println("Main Started");
+    Fan.increaseLevel();
+    Fan.increaseLevel();
+    speed = Fan.getLevel();
+    System.out.println("Speed after increase: " + speed);
 
-        System.out.println("Fan Brand: " + Fan.getBrand());
-        System.out.println("Speed Levels: " + Fan.getSpeedLevels());
-        System.out.println("Fan Color: " + Fan.getColor());
-        System.out.println("Fan Price: " + Fan.getPrice());
-
-        System.out.println("Main Ended");
-    }
+    Fan.decreaseLevel();
+    speed = Fan.getLevel();
+    System.out.println("Speed after decrease: " + speed);
+	}
 }

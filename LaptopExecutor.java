@@ -1,11 +1,20 @@
 class LaptopExecutor{
- public static void main(String[]args){
- System.out.println("Main Started");
- System.out.println("The Laptop Brand is "+ Laptop.getBrand());
- System.out.println("The Laptop Processor  is "+ Laptop.getProcessor());
- System.out.println("The Laptop Ram "+ Laptop.getRAM());
- System.out.println("The Laptop Television is "+ Laptop.getStorage());
- System.out.println("The Laptop Price is "+ Laptop.getPrice());
- System.out.println("Main Ended");
-}
+    public static void main(String[] args){
+
+        Laptop.power();
+
+        int volume = Laptop.getVolume();
+        System.out.println("Current Volume: " + volume);
+
+        Laptop.increaseVolume();
+        Laptop.increaseVolume();
+
+        volume = Laptop.getVolume();
+        System.out.println("Volume after increase: " + volume);
+
+        Laptop.decreaseVolume();
+
+        volume = Laptop.getVolume();
+        System.out.println("Volume after decrease: " + volume);
+    }
 }

@@ -1,4 +1,4 @@
-class Mobile{
+class Light{
 
     static int maxBrightness = 10;
     static int minBrightness = 0;
@@ -21,30 +21,30 @@ class Mobile{
     static void increaseBrightness(){
         if(isOn){
             if(currentBrightness < maxBrightness){
-                currentBrightness++;
+                currentBrightness = currentBrightness + 1;
                 System.out.println("Brightness increased to: " + currentBrightness);
             }
             else{
-                System.out.println("Brightness already maximum");
+                System.out.println("Brightness is already maximum");
             }
         }
         else{
-            System.out.println("Mobile is off");
+            System.out.println("Light is off");
         }
     }
 
     static void decreaseBrightness(){
         if(isOn){
             if(currentBrightness > minBrightness){
-                currentBrightness--;
+                currentBrightness = currentBrightness - 1;
                 System.out.println("Brightness decreased to: " + currentBrightness);
             }
             else{
-                System.out.println("Brightness already minimum");
+                System.out.println("Brightness is already minimum");
             }
         }
         else{
-            System.out.println("Mobile is off");
+            System.out.println("Light is off");
         }
     }
 }

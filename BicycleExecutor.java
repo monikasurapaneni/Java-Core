@@ -1,15 +1,18 @@
-class BicycleExecutor {
+class BicycleExecutor{
+    public static void main(String[] args){
 
-    public static void main(String[] args) {
+        int gear = Bicycle.getGear();
+        System.out.println("Current Gear: " + gear);
 
-        System.out.println("Main Started");
+        Bicycle.gearUp();
+        Bicycle.gearUp();
 
-        System.out.println("Brand: " + Bicycle.getBrand());
-        System.out.println("Type: " + Bicycle.getType());
-        System.out.println("Gears: " + Bicycle.getGearCount());
-        System.out.println("Frame: " + Bicycle.getFrameMaterial());
-        System.out.println("Price: " + Bicycle.getPrice());
+        gear = Bicycle.getGear();
+        System.out.println("Gear after increase: " + gear);
 
-        System.out.println("Main Ended");
+        Bicycle.gearDown();
+
+        gear = Bicycle.getGear();
+        System.out.println("Gear after decrease: " + gear);
     }
 }

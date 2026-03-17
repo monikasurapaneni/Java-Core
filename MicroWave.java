@@ -1,27 +1,45 @@
-class Microwave {
+class Microwave{
 
-    public static String getBrand() {
-        System.out.println("getBrand() invoked");
-        return "IFB";
+    static int maxTime = 30;
+    static int minTime = 0;
+    static int currentTime;
+    static boolean isOn;
+
+    static void power(){
+        if(isOn == false){
+            isOn = true;
+        }else{
+            isOn = false;
+        }
     }
 
-    public static int getCapacity() {
-        System.out.println("getCapacity() invoked");
-        return 30;
+    static int getTime(){
+        return currentTime;
     }
 
-    public static String getType() {
-        System.out.println("getType() invoked");
-        return "Convection";
+    static void increaseTime(){
+        if(isOn){
+            if(currentTime < maxTime){
+                currentTime++;
+                System.out.println("Time increased to: " + currentTime);
+            }else{
+                System.out.println("Maximum time reached");
+            }
+        }else{
+            System.out.println("Microwave is off");
+        }
     }
 
-    public static int getPower() {
-        System.out.println("getPower() invoked");
-        return 900;
-    }
-
-    public static double getPrice() {
-        System.out.println("getPrice() invoked");
-        return 15000.00;
+    static void decreaseTime(){
+        if(isOn){
+            if(currentTime > minTime){
+                currentTime--;
+                System.out.println("Time decreased to: " + currentTime);
+            }else{
+                System.out.println("Minimum time reached");
+            }
+        }else{
+            System.out.println("Microwave is off");
+        }
     }
 }

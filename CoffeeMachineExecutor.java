@@ -1,15 +1,18 @@
-class CoffeeMachineExecutor {
+class CoffeeMachineExecutor{
+    public static void main(String[] args){
 
-    public static void main(String[] args) {
+        int strength = CoffeeMachine.getStrength();
+        System.out.println("Current Strength: " + strength);
 
-        System.out.println("Main Started");
+        CoffeeMachine.increaseStrength();
+        CoffeeMachine.increaseStrength();
 
-        System.out.println("Brand: " + CoffeeMachine.getBrand());
-        System.out.println("Type: " + CoffeeMachine.getType());
-        System.out.println("Water Tank: " + CoffeeMachine.getWaterTankCapacity() + "L");
-        System.out.println("Power: " + CoffeeMachine.getPower() + "W");
-        System.out.println("Price: " + CoffeeMachine.getPrice());
+        strength = CoffeeMachine.getStrength();
+        System.out.println("Strength after increase: " + strength);
 
-        System.out.println("Main Ended");
+        CoffeeMachine.decreaseStrength();
+
+        strength = CoffeeMachine.getStrength();
+        System.out.println("Strength after decrease: " + strength);
     }
 }

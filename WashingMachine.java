@@ -1,26 +1,50 @@
-class WashingMachine {
-    public static String getBrand() {
-        System.out.println("getBrand() invoked");
-        return "Whirlpool";
+class WashingMachine{
+
+    static int maxMode = 5;
+    static int minMode = 0;
+    static int currentMode;
+    static boolean isOn;
+
+    static void power(){
+        if(isOn == false){
+            isOn = true;
+        }
+        else{
+            isOn = false;
+        }
     }
 
-    public static String getCapacity() {
-        System.out.println("getCapacity() invoked");
-        return "7 kg";
+    static int getMode(){
+        return currentMode;
     }
 
-    public static String getType() {
-        System.out.println("getType() invoked");
-        return "Fully Automatic";
+    static void nextMode(){
+        if(isOn){
+            if(currentMode < maxMode){
+                currentMode++;
+                System.out.println("Mode changed to: " + currentMode);
+            }
+            else{
+                System.out.println("Already in highest mode");
+            }
+        }
+        else{
+            System.out.println("Machine is off");
+        }
     }
 
-    public static String getSpinSpeed() {
-        System.out.println("getSpinSpeed() invoked");
-        return "1200 RPM";
-    }
-
-    public static String getPrice() {
-        System.out.println("getPrice() invoked");
-        return "25,000 INR";
+    static void previousMode(){
+        if(isOn){
+            if(currentMode > minMode){
+                currentMode--;
+                System.out.println("Mode changed to: " + currentMode);
+            }
+            else{
+                System.out.println("Already in lowest mode");
+            }
+        }
+        else{
+            System.out.println("Machine is off");
+        }
     }
 }

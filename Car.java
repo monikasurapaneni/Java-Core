@@ -1,27 +1,50 @@
-class Car {
+class Car{
 
-    public static String getBrand() {
-        System.out.println("getBrand() invoked");
-        return "Hyundai";
+    static int maxSpeed = 120;
+    static int minSpeed = 0;
+    static int currentSpeed;
+    static boolean isStarted;
+
+    static void startStop(){
+        if(isStarted == false){
+            isStarted = true;
+        }
+        else{
+            isStarted = false;
+        }
     }
 
-    public static String getModel() {
-        System.out.println("getModel() invoked");
-        return "Creta";
+    static int getSpeed(){
+        return currentSpeed;
     }
 
-    public static String getColor() {
-        System.out.println("getColor() invoked");
-        return "White";
+    static void accelerate(){
+        if(isStarted){
+            if(currentSpeed < maxSpeed){
+                currentSpeed = currentSpeed + 10;
+                System.out.println("Speed increased to: " + currentSpeed);
+            }
+            else{
+                System.out.println("Car already at maximum speed");
+            }
+        }
+        else{
+            System.out.println("Car is not started");
+        }
     }
 
-    public static int getSeatingCapacity() {
-        System.out.println("getSeatingCapacity() invoked");
-        return 5;
-    }
-
-    public static double getPrice() {
-        System.out.println("getPrice() invoked");
-        return 1500000.00;
+    static void brake(){
+        if(isStarted){
+            if(currentSpeed > minSpeed){
+                currentSpeed = currentSpeed - 10;
+                System.out.println("Speed decreased to: " + currentSpeed);
+            }
+            else{
+                System.out.println("Car already stopped");
+            }
+        }
+        else{
+            System.out.println("Car is not started");
+        }
     }
 }

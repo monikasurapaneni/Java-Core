@@ -1,6 +1,6 @@
-class Laptop{
+class MobileVolume{
 
-    static int maxVolume = 100;
+    static int maxVolume = 10;
     static int minVolume = 0;
     static int currentVolume;
     static boolean isOn;
@@ -8,8 +8,7 @@ class Laptop{
     static void power(){
         if(isOn == false){
             isOn = true;
-        }
-        else{
+        }else{
             isOn = false;
         }
     }
@@ -23,13 +22,11 @@ class Laptop{
             if(currentVolume < maxVolume){
                 currentVolume++;
                 System.out.println("Volume increased to: " + currentVolume);
-            }
-            else{
+            }else{
                 System.out.println("Volume already maximum");
             }
-        }
-        else{
-            System.out.println("Laptop is off");
+        }else{
+            System.out.println("Mobile is off");
         }
     }
 
@@ -38,13 +35,11 @@ class Laptop{
             if(currentVolume > minVolume){
                 currentVolume--;
                 System.out.println("Volume decreased to: " + currentVolume);
-            }
-            else{
+            }else{
                 System.out.println("Volume already minimum");
             }
-        }
-        else{
-            System.out.println("Laptop is off");
+        }else{
+            System.out.println("Mobile is off");
         }
     }
 }

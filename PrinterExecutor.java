@@ -1,15 +1,18 @@
-class PrinterExecutor {
+class PrinterExecutor{
+    public static void main(String[] args){
 
-    public static void main(String[] args) {
+        int pages = Printer.getPrintedPages();
+        System.out.println("Printed Pages: " + pages);
 
-        System.out.println("Main Started");
+        Printer.printPage();
+        Printer.printPage();
 
-        System.out.println("Brand: " + Printer.getBrand());
-        System.out.println("Type: " + Printer.getType());
-        System.out.println("Color Print: " + Printer.isColorPrint());
-        System.out.println("Print Speed: " + Printer.getPrintSpeed() + " ppm");
-        System.out.println("Price: " + Printer.getPrice());
+        pages = Printer.getPrintedPages();
+        System.out.println("Pages after printing: " + pages);
 
-        System.out.println("Main Ended");
+        Printer.resetPrinter();
+
+        pages = Printer.getPrintedPages();
+        System.out.println("Pages after reset: " + pages);
     }
 }

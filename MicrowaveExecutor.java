@@ -1,15 +1,20 @@
-class MicrowaveExecutor {
+class MicrowaveExecutor{
+    public static void main(String[] args){
 
-    public static void main(String[] args) {
+        Microwave.power();
 
-        System.out.println("Main Started");
+        int time = Microwave.getTime();
+        System.out.println("Current Time: " + time);
 
-        System.out.println("Brand: " + Microwave.getBrand());
-        System.out.println("Capacity: " + Microwave.getCapacity() + "L");
-        System.out.println("Type: " + Microwave.getType());
-        System.out.println("Power: " + Microwave.getPower() + "W");
-        System.out.println("Price: " + Microwave.getPrice());
+        Microwave.increaseTime();
+        Microwave.increaseTime();
 
-        System.out.println("Main Ended");
+        time = Microwave.getTime();
+        System.out.println("Time after increase: " + time);
+
+        Microwave.decreaseTime();
+
+        time = Microwave.getTime();
+        System.out.println("Time after decrease: " + time);
     }
 }
