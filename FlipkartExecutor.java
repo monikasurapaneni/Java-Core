@@ -1,0 +1,41 @@
+class FlipkartExecutor{
+public static void main(String[]args){
+Flipkart.createAccount(9900000001L,"aarin.mehra01@gmail.com","Aarin@701","02-01-2001","Aarin Mehra","aarin01");
+Flipkart.createAccount(9900000002L,"saaniya.kapoor02@gmail.com","Saaniya#702","13-02-2002","Saaniya Kapoor","saaniya02");
+Flipkart.createAccount(9900000003L,"divit.sharma03@gmail.com","Divit@703","24-03-2000","Divit Sharma","divit03");
+Flipkart.createAccount(9900000004L,"anvika.reddy04@gmail.com","Anvika#704","05-04-2003","Anvika Reddy","anvika04");
+Flipkart.createAccount(9900000005L,"hriday.malhotra05@gmail.com","Hriday@705","16-05-2001","Hriday Malhotra","hriday05");
+Flipkart.createAccount(9900000006L,"miraya.patel06@gmail.com","Miraya#706","27-06-2002","Miraya Patel","miraya06");
+Flipkart.createAccount(9900000007L,"advaith.jain07@gmail.com","Advaith@707","08-07-2000","Advaith Jain","advaith07");
+Flipkart.createAccount(9900000008L,"tanisha.singh08@gmail.com","Tanisha#708","19-08-2003","Tanisha Singh","tanisha08");
+Flipkart.createAccount(9900000009L,"lakshit.nair09@gmail.com","Lakshit@709","30-09-2001","Lakshit Nair","lakshit09");
+Flipkart.createAccount(9900000010L,"kiyana.verma10@gmail.com","Kiyana#710","11-10-2002","Kiyana Verma","kiyana10");
+Flipkart.createAccount(9900000011L,"darvik.gupta11@gmail.com","Darvik@711","22-11-2000","Darvik Gupta","darvik11");
+Flipkart.createAccount(9900000012L,"aishani.kohli12@gmail.com","Aishani#712","03-12-2003","Aishani Kohli","aishani12");
+Flipkart.createAccount(9900000013L,"ritvik.rao13@gmail.com","Ritvik@713","14-01-2001","Ritvik Rao","ritvik13");
+Flipkart.createAccount(9900000014L,"shanaya.bose14@gmail.com","Shanaya#714","25-02-2002","Shanaya Bose","shanaya14");
+Flipkart.createAccount(9900000015L,"harshith.desai15@gmail.com","Harshith@715","06-03-2000","Harshith Desai","harshith15");
+Flipkart.createAccount(9900000016L,"aavya.mishra16@gmail.com","Aavya#716","17-04-2003","Aavya Mishra","aavya16");
+Flipkart.createAccount(9900000017L,"veer.shroff17@gmail.com","Veer@717","28-05-2001","Veer Shroff","veer17");
+Flipkart.createAccount(9900000018L,"ishika.pillai18@gmail.com","Ishika#718","09-06-2002","Ishika Pillai","ishika18");
+Flipkart.createAccount(9900000019L,"yuvan.arora19@gmail.com","Yuvan@719","20-07-2000","Yuvan Arora","yuvan19");
+Flipkart.createAccount(9900000020L,"meghna.kapadia20@gmail.com","Meghna#720","01-08-2003","Meghna Kapadia","meghna20");
+Flipkart.createAccount(9900000021L,"krishav.suri21@gmail.com","Krishav@721","12-09-2001","Krishav Suri","krishav21");
+Flipkart.createAccount(9900000022L,"navika.joshi22@gmail.com","Navika#722","23-10-2002","Navika Joshi","navika22");
+Flipkart.createAccount(9900000023L,"omkar.merchant23@gmail.com","Omkar@723","04-11-2000","Omkar Merchant","omkar23");
+Flipkart.createAccount(9900000024L,"saanvi.reddy24@gmail.com","Saanvi#724","15-12-2003","Saanvi Reddy","saanvi24");
+Flipkart.createAccount(9900000025L,"ritanshu.pandey25@gmail.com","Ritanshu@725","26-01-2001","Ritanshu Pandey","ritanshu25");
+Flipkart.createAccount(9900000026L,"aayra.goyal26@gmail.com","Aayra#726","07-02-2002","Aayra Goyal","aayra26");
+Flipkart.createAccount(9900000027L,"darshit.kumar27@gmail.com","Darshit@727","18-03-2000","Darshit Kumar","darshit27");
+Flipkart.createAccount(9900000028L,"jivika.mehra28@gmail.com","Jivika#728","29-04-2003","Jivika Mehra","jivika28");
+Flipkart.createAccount(9900000029L,"adhrith.naidu29@gmail.com","Adhrith@729","10-05-2001","Adhrith Naidu","adhrith29");
+Flipkart.createAccount(9900000030L,"tanmay.jain30@gmail.com","Tanmay#730","21-06-2002","Tanmay Jain","tanmay30");
+Flipkart.createAccount(9900000031L,"sarthak.verma31@gmail.com","Sarthak@731","02-07-2000","Sarthak Verma","sarthak31");
+Flipkart.createAccount(9900000032L,"megha.singh32@gmail.com","Megha#732","13-08-2003","Megha Singh","megha32");
+Flipkart.createAccount(9900000033L,"prayanth.iyer33@gmail.com","Prayanth@733","24-09-2001","Prayanth Iyer","prayanth33");
+Flipkart.createAccount(9900000034L,"ishani.shah34@gmail.com","Ishani#734","05-10-2002","Ishani Shah","ishani34");
+Flipkart.createAccount(9900000035L,"ranveer.chauhan35@gmail.com","Ranveer@735","16-11-2000","Ranveer Chauhan","ranveer35");
+Flipkart.createAccount(9900000036L,"vihani.kapoor36@gmail.com","Vihani#736","27-12-2003","Vihani Kapoor","vihani36");
+Flipkart.createAccount(9900000037L,"zaidan.khan37@gmail.com","Zaidan@737","08-01-2001","Zaidan Khan","zaidan37");
+}
+}

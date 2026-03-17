@@ -9,7 +9,7 @@ class HeadSet{
 }
  public static String getColor(){
   System.out.println("getColor() invoked");
-  return "Lavender ";
+  return "Lavender";
 }
  public static String getmaterial(){
 	System.out.println("getMaterial() invoked");

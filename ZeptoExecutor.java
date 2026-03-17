@@ -1,0 +1,42 @@
+class ZeptoExecutor{
+public static void main(String[]args){
+Zepto.createAccount(9110818086L,"monikasurapaneni21@gmail.com","Sathvika","07-06-2004","Monika S","Monika22");
+Zepto.createAccount(9300000001L,"aarohan.das01@gmail.com","Aarohan@101","01-01-2001","Aarohan Das","aarohan01");
+Zepto.createAccount(9300000002L,"suhani.mehra02@gmail.com","Suhani#202","12-02-2002","Suhani Mehra","suhani02");
+Zepto.createAccount(9300000003L,"vivit.kapadia03@gmail.com","Vivit@303","23-03-2000","Vivit Kapadia","vivit03");
+Zepto.createAccount(9300000004L,"tanmayi.reddy04@gmail.com","Tanmayi#404","04-04-2003","Tanmayi Reddy","tanmayi04");
+Zepto.createAccount(9300000005L,"ishvik.arora05@gmail.com","Ishvik@505","15-05-2001","Ishvik Arora","ishvik05");
+Zepto.createAccount(9300000006L,"mahira.seth06@gmail.com","Mahira#606","26-06-2002","Mahira Seth","mahira06");
+Zepto.createAccount(9300000007L,"devit.sharma07@gmail.com","Devit@707","07-07-2000","Devit Sharma","devit07");
+Zepto.createAccount(9300000008L,"pranika.nair08@gmail.com","Pranika#808","18-08-2003","Pranika Nair","pranika08");
+Zepto.createAccount(9300000009L,"lakshay.bhat09@gmail.com","Lakshay@909","29-09-2001","Lakshay Bhat","lakshay09");
+Zepto.createAccount(9300000010L,"kiara.gupta10@gmail.com","Kiara#110","10-10-2002","Kiara Gupta","kiara10");
+Zepto.createAccount(9300000011L,"aryaman.singh11@gmail.com","Aryaman@111","21-11-2000","Aryaman Singh","aryaman11");
+Zepto.createAccount(9300000012L,"nysa.kapoor12@gmail.com","Nysa#112","02-12-2003","Nysa Kapoor","nysa12");
+Zepto.createAccount(9300000013L,"ritvik.jain13@gmail.com","Ritvik@113","13-01-2001","Ritvik Jain","ritvik13");
+Zepto.createAccount(9300000014L,"shanaya.iyer14@gmail.com","Shanaya#114","24-02-2002","Shanaya Iyer","shanaya14");
+Zepto.createAccount(9300000015L,"harveer.malhotra15@gmail.com","Harveer@115","05-03-2000","Harveer Malhotra","harveer15");
+Zepto.createAccount(9300000016L,"aanya.pillai16@gmail.com","Aanya#116","16-04-2003","Aanya Pillai","aanya16");
+Zepto.createAccount(9300000017L,"veer.chopra17@gmail.com","Veer@117","27-05-2001","Veer Chopra","veer17");
+Zepto.createAccount(9300000018L,"ishani.desai18@gmail.com","Ishani#118","08-06-2002","Ishani Desai","ishani18");
+Zepto.createAccount(9300000019L,"yuvraj.naidu19@gmail.com","Yuvraj@119","19-07-2000","Yuvraj Naidu","yuvraj19");
+Zepto.createAccount(9300000020L,"meher.suri20@gmail.com","Meher#120","30-08-2003","Meher Suri","meher20");
+Zepto.createAccount(9300000021L,"krishay.patel21@gmail.com","Krishay@121","11-09-2001","Krishay Patel","krishay21");
+Zepto.createAccount(9300000022L,"navina.kaur22@gmail.com","Navina#122","22-10-2002","Navina Kaur","navina22");
+Zepto.createAccount(9300000023L,"omesh.verma23@gmail.com","Omesh@123","03-11-2000","Omesh Verma","omesh23");
+Zepto.createAccount(9300000024L,"saanika.bose24@gmail.com","Saanika#124","14-12-2003","Saanika Bose","saanika24");
+Zepto.createAccount(9300000025L,"ritesh.goyal25@gmail.com","Ritesh@125","25-01-2001","Ritesh Goyal","ritesh25");
+Zepto.createAccount(9300000026L,"aavya.mishra26@gmail.com","Aavya#126","06-02-2002","Aavya Mishra","aavya26");
+Zepto.createAccount(9300000027L,"darsh.thakur27@gmail.com","Darsh@127","17-03-2000","Darsh Thakur","darsh27");
+Zepto.createAccount(9300000028L,"jivika.saxena28@gmail.com","Jivika#128","28-04-2003","Jivika Saxena","jivika28");
+Zepto.createAccount(9300000029L,"advaith.hegde29@gmail.com","Advaith@129","09-05-2001","Advaith Hegde","advaith29");
+Zepto.createAccount(9300000030L,"tanishka.arora30@gmail.com","Tanishka#130","20-06-2002","Tanishka Arora","tanishka30");
+Zepto.createAccount(9300000031L,"sarthak.lal31@gmail.com","Sarthak@131","01-07-2000","Sarthak Lal","sarthak31");
+Zepto.createAccount(9300000032L,"megha.kohli32@gmail.com","Megha#132","12-08-2003","Megha Kohli","megha32");
+Zepto.createAccount(9300000033L,"prayan.merchant33@gmail.com","Prayan@133","23-09-2001","Prayan Merchant","prayan33");
+Zepto.createAccount(9300000034L,"ishvika.raj34@gmail.com","Ishvika#134","04-10-2002","Ishvika Raj","ishvika34");
+Zepto.createAccount(9300000035L,"ranveer.bedi35@gmail.com","Ranveer@135","15-11-2000","Ranveer Bedi","ranveer35");
+Zepto.createAccount(9300000036L,"vihana.gupta36@gmail.com","Vihana#136","26-12-2003","Vihana Gupta","vihana36");
+Zepto.createAccount(9300000037L,"zaheer.pathan37@gmail.com","Zaheer@137","07-01-2001","Zaheer Pathan","zaheer37");
+}
+}

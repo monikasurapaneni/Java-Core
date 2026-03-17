@@ -1,24 +1,26 @@
 class Scooter {
-  public static void main(String[] args) {
+    public static String getBrand() {
+        System.out.println("getBrand() invoked");
+        return "Honda";
+    }
 
-    int price = 129848;
-	String manufacturer = "Bajaj Auto Limited";
-    String brand = "Chetak";
-    String color = "Brooklyn black";
-    String model = "‎00GL549V";
-    String size = "standard";
-    String countryOfOrigin = "India";
-    String weight = "129 kg";
-    String features = "Solid Metal Body ,IP 67 Rated Water Resistance, ARAI Certified Range - 153 km ,Charges 80% in 3 hrs, TFT Touch Display,  Chetak App, Map Navigation, 35 L Bootspace";
+    public static String getModel() {
+        System.out.println("getModel() invoked");
+        return "Activa 6G";
+    }
 
-    System.out.println("The price is : " + price); 
-    System.out.println("The manufacturer is : " + manufacturer);
-    System.out.println("The brand it belongs to is : " + brand);
-    System.out.println("The color is : " + color);
-    System.out.println("The model is : " + model);
-    System.out.println("The size is : " + size);
-	System.out.println("The product is made in is : " + countryOfOrigin);
-    System.out.println("The weight is : " + weight);
-    System.out.println("The features includes are : " + features);
+    public static String getEngineCapacity() {
+        System.out.println("getEngineCapacity() invoked");
+        return "109.51 cc";
+    }
+
+    public static String getMileage() {
+        System.out.println("getMileage() invoked");
+        return "50 kmpl";
+    }
+
+    public static String getPrice() {
+        System.out.println("getPrice() invoked");
+        return "75,000 INR";
     }
 }
