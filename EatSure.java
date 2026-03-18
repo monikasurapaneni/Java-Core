@@ -1,204 +1,204 @@
-class BlinkIt {
+class EatSure {
 
     public static double search(String itemName){
         double price = 0.0;
 
-        if(itemName=="Rice Bag"){
+        if(itemName=="Paneer Butter Masala"){
             price = 220;
             return price;
         }
-        else if(itemName=="Wheat Flour"){
+        else if(itemName=="Chicken Biryani"){
             price = 250;
             return price;
         }
-        else if(itemName=="Toor Dal"){
+        else if(itemName=="Veg Biryani"){
             price = 180;
             return price;
         }
-        else if(itemName=="Sugar Pack"){
+        else if(itemName=="Butter Naan"){
             price = 40;
             return price;
         }
-        else if(itemName=="Salt Packet"){
+        else if(itemName=="Tandoori Roti"){
             price = 30;
             return price;
         }
-        else if(itemName=="Cooking Oil"){
+        else if(itemName=="Dal Tadka"){
             price = 160;
             return price;
         }
-        else if(itemName=="Ghee Jar"){
+        else if(itemName=="Kadai Chicken"){
             price = 260;
             return price;
         }
-        else if(itemName=="Milk Packet"){
+        else if(itemName=="Fish Curry"){
             price = 280;
             return price;
         }
-        else if(itemName=="Curd Cup"){
+        else if(itemName=="Veg Fried Rice"){
             price = 140;
             return price;
         }
-        else if(itemName=="Paneer Pack"){
+        else if(itemName=="Chicken Fried Rice"){
             price = 180;
             return price;
         }
-        else if(itemName=="Butter Pack"){
+        else if(itemName=="Hakka Noodles"){
             price = 150;
             return price;
         }
-        else if(itemName=="Cheese Slices"){
+        else if(itemName=="Schezwan Noodles"){
             price = 170;
             return price;
         }
-        else if(itemName=="Bread Loaf"){
+        else if(itemName=="Spring Rolls"){
             price = 120;
             return price;
         }
-        else if(itemName=="Brown Bread"){
+        else if(itemName=="Chilli Paneer"){
             price = 190;
             return price;
         }
-        else if(itemName=="Egg Tray"){
+        else if(itemName=="Chilli Chicken"){
             price = 210;
             return price;
         }
-        else if(itemName=="Banana Bunch"){
+        else if(itemName=="Burger Meal"){
             price = 150;
             return price;
         }
-        else if(itemName=="Apple Pack"){
+        else if(itemName=="Pizza Combo"){
             price = 300;
             return price;
         }
-        else if(itemName=="Orange Pack"){
+        else if(itemName=="Cold Drink"){
             price = 50;
             return price;
         }
-        else if(itemName=="Mango Box"){
+        else if(itemName=="Chocolate Shake"){
             price = 120;
             return price;
-        } else if(itemName=="Watermelon Slice"){
+        } else if(itemName=="Strawberry Shake"){
             price = 110;
 			return price;
-        } else if(itemName=="Pineapple Whole"){
+        } else if(itemName=="Vanilla Shake"){
             price = 100; 
 			return price;
-        } else if(itemName=="Papaya Cut"){
+        } else if(itemName=="Oreo Shake"){
             price = 130;
 			return price;
-        } else if(itemName=="Grapes Pack"){
+        } else if(itemName=="Brownie"){
             price = 90;
 			return price;
-        } else if(itemName=="Pomegranate Pack"){
+        } else if(itemName=="Ice Cream Sundae"){
             price = 140; 
 			return price;
-        } else if(itemName=="Potato Bag"){
+        } else if(itemName=="Cheese Pizza"){
             price = 220; 
 			return price;
-        } else if(itemName=="Onion Bag"){
+        } else if(itemName=="Veg Loaded Pizza"){
             price = 260;
 			return price;
-        } else if(itemName=="Tomato Pack"){
+        } else if(itemName=="Chicken Loaded Pizza"){
             price = 300; 
 			return price;
-        } else if(itemName=="Carrot Pack"){
+        } else if(itemName=="Garlic Bread"){
             price = 120;
 			return price;
-        } else if(itemName=="Beetroot Pack"){
+        } else if(itemName=="Cheese Garlic Bread"){
             price = 150; 
 			return price;
-        } else if(itemName=="Cabbage"){
+        } else if(itemName=="French Fries"){
             price = 100;
 			return price;
-        } else if(itemName=="Cauliflower"){
+        } else if(itemName=="Peri Peri Fries"){
             price = 130;
 			return price;
-        } else if(itemName=="Capsicum Pack"){
+        } else if(itemName=="Veg Sandwich"){
             price = 80;
 			return price;
-        } else if(itemName=="Cucumber Pack"){
+        } else if(itemName=="Grilled Sandwich"){
             price = 110; 
 			return price;
-        } else if(itemName=="Spinach Bundle"){
+        } else if(itemName=="Club Sandwich"){
             price = 140;
 			return price;
-        } else if(itemName=="Broccoli"){
+        } else if(itemName=="Veg Burger"){
             price = 90; 
 			return price;
-        } else if(itemName=="Green Peas"){
+        } else if(itemName=="Chicken Burger"){
             price = 120; 
 			return price;
-        } else if(itemName=="Sweet Corn"){
+        } else if(itemName=="Double Patty Burger"){
             price = 160;
 			return price;
-        } else if(itemName=="Maggi Pack"){
+        } else if(itemName=="Paneer Roll"){
             price = 130;
 			return price;
-        } else if(itemName=="Oats Pack"){
+        } else if(itemName=="Chicken Roll"){
             price = 150; 
 			return price;
-        } else if(itemName=="Cornflakes Box"){
+        } else if(itemName=="Egg Roll"){
             price = 100;
 			return price;
-        } else if(itemName=="Biscuit Pack"){
+        } else if(itemName=="Veg Momos"){
             price = 90; 
 			return price;
-        } else if(itemName=="Chocolate Bar"){
+        } else if(itemName=="Chicken Momos"){
             price = 120;
 			return price;
-        } else if(itemName=="Ice Cream Tub"){
+        } else if(itemName=="Fried Momos"){
             price = 130; 
 			return price;
-        } else if(itemName=="Cold Drink Bottle"){
+        } else if(itemName=="Paneer Tikka"){
             price = 200; 
 			return price;
-        } else if(itemName=="Juice Pack"){
+        } else if(itemName=="Chicken Tikka"){
             price = 250;
 			return price;
-        } else if(itemName=="Energy Drink Can"){
+        } else if(itemName=="Tandoori Chicken"){
             price = 300; 
 			return price;
-        } else if(itemName=="Tea Powder"){
+        } else if(itemName=="Veg Thali"){
             price = 180;
 			return price;
-        } else if(itemName=="Coffee Powder"){
+        } else if(itemName=="Non Veg Thali"){
             price = 250; 
 			return price;
-        } else if(itemName=="Honey Bottle"){
+        } else if(itemName=="Rajma Chawal"){
             price = 140; 
 			return price;
-        } else if(itemName=="Jam Bottle"){
+        } else if(itemName=="Chole Bhature"){
             price = 120; 
 			return price;
-        } else if(itemName=="Peanut Butter Jar"){
+        } else if(itemName=="Aloo Paratha"){
             price = 60; 
 			return price;
-        } else if(itemName=="Pickle Jar"){
+        } else if(itemName=="Paneer Paratha"){
             price = 80; 
 			return price;
-        } else if(itemName=="Sauce Bottle"){
+        } else if(itemName=="Masala Dosa"){
             price = 90;
 			return price;
-        } else if(itemName=="Instant Noodles"){
+        } else if(itemName=="Plain Dosa"){
             price = 70;
 			return price;
-        } else if(itemName=="Ready Mix Pack"){
+        } else if(itemName=="Idli Sambar"){
             price = 60; 
 			return price;
-        } else if(itemName=="Snack Chips"){
+        } else if(itemName=="Vada Sambar"){
             price = 70; 
 			return price;
-        } else if(itemName=="Popcorn Pack"){
+        } else if(itemName=="Upma"){
             price = 50; 
 			return price;
-        } else if(itemName=="Dry Fruits Box"){
+        } else if(itemName=="Poha"){
             price = 50; 
 			return price;
-        } else if(itemName=="Green Tea Pack"){
+        } else if(itemName=="Tea"){
             price = 20; 
 			return price;
-        } else if(itemName=="Filter Coffee Pack"){
+        } else if(itemName=="Coffee"){
             price = 30;
 			return price;
         } 
@@ -208,181 +208,182 @@ class BlinkIt {
 
         return price;
     }
+
 	public static double search(String itemName, int quantity){
 	double price=0.0;
 
-	if(itemName == "Basmati Rice"){
+	if(itemName == "Paneer Butter Masala"){
 	price = 220 * quantity;
 	return price;
-	}else if(itemName == "Atta Flour"){
+	}else if(itemName == "Chicken Tikka Masala"){
 	price = 260 * quantity;
 	return price;
-	}else if(itemName == "Moong Dal"){
+	}else if(itemName == "Veg Biryani"){
 	price = 180 * quantity;
 	return price;
-	}else if(itemName == "Sunflower Oil"){
+	}else if(itemName == "Chicken Dum Biryani"){
 	price = 280 * quantity;
 	return price;
-	}else if(itemName == "Desi Ghee"){
+	}else if(itemName == "Mutton Biryani"){
 	price = 320 * quantity;
 	return price;
-	}else if(itemName == "Brown Sugar"){
+	}else if(itemName == "Butter Naan"){
 	price = 40 * quantity;
 	return price;
-	}else if(itemName == "Rock Salt"){
+	}else if(itemName == "Garlic Naan"){
 	price = 60 * quantity;
 	return price;
-	}else if(itemName == "Garam Masala"){
+	}else if(itemName == "Tandoori Roti"){
 	price = 30 * quantity;
 	return price;
-	}else if(itemName == "Full Cream Milk"){
+	}else if(itemName == "Dal Fry"){
 	price = 150 * quantity;
 	return price;
-	}else if(itemName == "Greek Yogurt"){
+	}else if(itemName == "Dal Makhani"){
 	price = 200 * quantity;
 	return price;
-	}else if(itemName == "Fresh Paneer"){
+	}else if(itemName == "Kadai Paneer"){
 	price = 210 * quantity;
 	return price;
-	}else if(itemName == "Salted Butter"){
+	}else if(itemName == "Shahi Paneer"){
 	price = 230 * quantity;
 	return price;
-	}else if(itemName == "Cheddar Cheese"){
+	}else if(itemName == "Chilli Paneer"){
 	price = 190 * quantity;
 	return price;
-	}else if(itemName == "Brown Eggs"){
+	}else if(itemName == "Chilli Chicken"){
 	price = 220 * quantity;
 	return price;
-	}else if(itemName == "White Bread"){
+	}else if(itemName == "Veg Fried Rice"){
 	price = 140 * quantity;
 	return price;
-	}else if(itemName == "Multigrain Bread"){
+	}else if(itemName == "Chicken Fried Rice"){
 	price = 180 * quantity;
 	return price;
-	}else if(itemName == "Organic Bananas"){
+	}else if(itemName == "Egg Fried Rice"){
 	price = 160 * quantity;
 	return price;
-	}else if(itemName == "Green Apples"){
+	}else if(itemName == "Hakka Noodles"){
 	price = 150 * quantity;
 	return price;
-	}else if(itemName == "Mandarin Oranges"){
+	}else if(itemName == "Schezwan Noodles"){
 	price = 170 * quantity;
 	return price;
-	}else if(itemName == "Seedless Grapes"){
+	}else if(itemName == "American Chopsuey"){
 	price = 200 * quantity;
 	return price;
-	}else if(itemName == "Alphonso Mango"){
+	}else if(itemName == "Veg Manchurian"){
 	price = 180 * quantity;
 	return price;
-	}else if(itemName == "Fresh Anar"){
+	}else if(itemName == "Chicken Manchurian"){
 	price = 220 * quantity;
 	return price;
-	}else if(itemName == "Baby Potatoes"){
+	}else if(itemName == "Paneer Tikka"){
 	price = 210 * quantity;
 	return price;
-	}else if(itemName == "Red Onions"){
+	}else if(itemName == "Chicken Wings"){
 	price = 240 * quantity;
 	return price;
-	}else if(itemName == "Cherry Tomatoes"){
+	}else if(itemName == "Tandoori Chicken"){
 	price = 300 * quantity;
 	return price;
-	}else if(itemName == "Baby Carrots"){
+	}else if(itemName == "Fish Tikka"){
 	price = 280 * quantity;
 	return price;
-	}else if(itemName == "Purple Cabbage"){
+	}else if(itemName == "Veg Burger"){
 	price = 100 * quantity;
 	return price;
-	}else if(itemName == "Broccoli Florets"){
+	}else if(itemName == "Chicken Burger"){
 	price = 140 * quantity;
 	return price;
-	}else if(itemName == "Yellow Capsicum"){
+	}else if(itemName == "Double Patty Burger"){
 	price = 180 * quantity;
 	return price;
-	}else if(itemName == "English Cucumber"){
+	}else if(itemName == "French Fries"){
 	price = 120 * quantity;
 	return price;
-	}else if(itemName == "Spinach Leaves"){
+	}else if(itemName == "Peri Peri Fries"){
 	price = 150 * quantity;
 	return price;
-	}else if(itemName == "Zucchini"){
+	}else if(itemName == "Cheese Balls"){
 	price = 160 * quantity;
 	return price;
-	}else if(itemName == "Frozen Peas"){
+	}else if(itemName == "Veg Pizza"){
 	price = 220 * quantity;
 	return price;
-	}else if(itemName == "Sweet Corn Kernels"){
+	}else if(itemName == "Chicken Pizza"){
 	price = 280 * quantity;
 	return price;
-	}else if(itemName == "Frozen Mix Veg"){
+	}else if(itemName == "Cheese Burst Pizza"){
 	price = 320 * quantity;
 	return price;
-	}else if(itemName == "Cup Noodles"){
+	}else if(itemName == "Garlic Bread"){
 	price = 110 * quantity;
 	return price;
-	}else if(itemName == "Quaker Oats"){
+	}else if(itemName == "Cheese Garlic Bread"){
 	price = 150 * quantity;
 	return price;
-	}else if(itemName == "Muesli Box"){
+	}else if(itemName == "Veg Sandwich"){
 	price = 90 * quantity;
 	return price;
-	}else if(itemName == "Digestive Biscuits"){
+	}else if(itemName == "Grilled Sandwich"){
 	price = 120 * quantity;
 	return price;
-	}else if(itemName == "Dark Chocolate"){
+	}else if(itemName == "Club Sandwich"){
 	price = 150 * quantity;
 	return price;
-	}else if(itemName == "Tortilla Chips"){
+	}else if(itemName == "Paneer Roll"){
 	price = 140 * quantity;
 	return price;
-	}else if(itemName == "Caramel Popcorn"){
+	}else if(itemName == "Chicken Roll"){
 	price = 170 * quantity;
 	return price;
-	}else if(itemName == "Almond Pack"){
+	}else if(itemName == "Egg Roll"){
 	price = 120 * quantity;
 	return price;
-	}else if(itemName == "Mixed Fruit Juice"){
+	}else if(itemName == "Veg Momos"){
 	price = 100 * quantity;
 	return price;
-	}else if(itemName == "Sparkling Water"){
+	}else if(itemName == "Chicken Momos"){
 	price = 140 * quantity;
 	return price;
-	}else if(itemName == "Energy Booster Drink"){
+	}else if(itemName == "Fried Momos"){
 	price = 150 * quantity;
 	return price;
-	}else if(itemName == "Chocolate Ice Cream"){
+	}else if(itemName == "Chocolate Brownie"){
 	price = 110 * quantity;
 	return price;
-	}else if(itemName == "Frozen Yogurt"){
+	}else if(itemName == "Ice Cream Sundae"){
 	price = 150 * quantity;
 	return price;
-	}else if(itemName == "Butter Cookies"){
+	}else if(itemName == "Vanilla Ice Cream"){
 	price = 90 * quantity;
 	return price;
-	}else if(itemName == "Chocolate Muffins"){
+	}else if(itemName == "Chocolate Ice Cream"){
 	price = 100 * quantity;
 	return price;
-	}else if(itemName == "Strawberry Milkshake"){
+	}else if(itemName == "Strawberry Ice Cream"){
 	price = 95 * quantity;
 	return price;
-	}else if(itemName == "Cold Coffee Can"){
+	}else if(itemName == "Milkshake"){
 	price = 130 * quantity;
 	return price;
-	}else if(itemName == "Assam Tea"){
+	}else if(itemName == "Cold Coffee"){
 	price = 120 * quantity;
 	return price;
-	}else if(itemName == "Instant Coffee"){
+	}else if(itemName == "Lassi"){
 	price = 80 * quantity;
 	return price;
-	}else if(itemName == "Organic Honey"){
+	}else if(itemName == "Masala Chai"){
 	price = 30 * quantity;
 	return price;
-	}else if(itemName == "Herbal Tea"){
+	}else if(itemName == "Filter Coffee"){
 	price = 40 * quantity;
 	return price;
-	}else if(itemName == "Soda Bottle"){
+	}else if(itemName == "Soft Drink"){
 	price = 50 * quantity;
 	return price;
-	}else if(itemName == "Drinking Water"){
+	}else if(itemName == "Mineral Water"){
 	price = 20 * quantity;
 	return price;
 	}else{
@@ -390,9 +391,7 @@ class BlinkIt {
 	}
 
 	return price;
+	}
 }
-	
-	
-	
-	
-}
+	  
+	  
